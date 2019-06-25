@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>expressvpn</Name>
+        <Homepage>https://www.expressvpn.com</Homepage>
+        <Packager>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail</Email>
+        </Packager>
+        <Summary>expressvpn tool for expressvpn.com</Summary>
+        <Description>expressvpn is a commandline tool which allows the use of the ExpressVPN service</Description>
+        <License>Custom</License>
+        <Archive sha1sum="f765478069064fdfb8b8e6ccf95eb367fca4b622" type="binary">https://download.expressvpn.xyz/clients/linux/expressvpn_2.1.0-1_amd64.deb</Archive>
+    </Source>
+
+    <Package>
+        <Name>expressvpn</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>26-06-19</Date>
+            <Version>2.1.0</Version>
+            <Comment>Initial inclusion of expressvpn</Comment>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail</Email>
+        </Update>
+    </History>
+</PISI>
