@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>zoom</Name>
+        <Homepage>https://zoom.us/</Homepage>
+        <Packager>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail</Email>
+        </Packager>
+        <Summary>Enterprise video conferencing with real-time messaging and content sharing</Summary>
+        <Description>Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, collaboration, chat, and webinars across mobile devices, desktops, telephones, and room systems.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="6e4cd1b93afc2286d917d3067e0642a6610f851b" type="binary">https://d11yldzmag5yn.cloudfront.net/prod/2.9.265650.0716/zoom_amd64.deb</Archive>
+    </Source>
+
+    <Package>
+        <Name>zoom</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>qt5-base</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>20-08-19</Date>
+            <Version>2.9.265650.0716</Version>
+            <Comment>Initial packaging</Comment>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
