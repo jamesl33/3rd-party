@@ -11,7 +11,7 @@
         <Summary>expressvpn tool for expressvpn.com</Summary>
         <Description>expressvpn is a commandline tool which allows the use of the ExpressVPN service</Description>
         <License>Custom</License>
-        <Archive sha1sum="f765478069064fdfb8b8e6ccf95eb367fca4b622" type="binary">https://download.expressvpn.xyz/clients/linux/expressvpn_2.1.0-1_amd64.deb</Archive>
+        <Archive sha1sum="f312b328e002c8e3328932c78553b3a930be5f27" type="binary">https://download.expressvpn.xyz/clients/linux/expressvpn_2.3.2-1_amd64.deb</Archive>
     </Source>
 
     <Package>
@@ -22,6 +22,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>16-11-19</Date>
+            <Version>2.3.2</Version>
+            <Comment>Updated expressvpn to 2.3.2</Comment>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail</Email>
+        </Update>
         <Update release="1">
             <Date>26-06-19</Date>
             <Version>2.1.0</Version>
